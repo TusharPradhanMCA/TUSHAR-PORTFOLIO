@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import Playwright from "./tech/Playwright.svg";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -59,4 +60,5 @@ export {
   wager,
   URLShortner,
   tripguide,
+  Playwright,
 };

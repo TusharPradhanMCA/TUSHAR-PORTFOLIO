@@ -23,6 +23,7 @@ import {
   URLShortner,
   tripguide,
   threejs,
+  Playwright,
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +42,7 @@ export const navLinks = [
 ];
 
 const services = [
+ 
   {
     title: "Automation Engineer",
     icon: web,
@@ -61,6 +63,15 @@ const services = [
 
 const technologies = [
   {
+    title: "Playwright",
+    icon: Playwright,
+  },
+   {
+    name: "figma",
+    icon: figma,
+  },
+  
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -80,10 +91,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,26 +103,23 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
