@@ -100,7 +100,7 @@ const Navbar = () => {
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    // close menu and set active
+                    
                     setToggle(false);
                     setActive(nav.title);
                   }}
