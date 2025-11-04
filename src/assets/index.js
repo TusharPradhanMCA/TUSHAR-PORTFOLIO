@@ -25,7 +25,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import subodh from "./company/subodh.png";
 import orufy from "./company/orufy.png";
-import kugelblitz from "./company/kugelblitz.svg";
+import kugelblitz from "./tech/playwright.svg";
 import jecrc from "./company/jecrc.png";
 
 import wager from "./wager.png";
