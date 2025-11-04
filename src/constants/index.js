@@ -24,9 +24,14 @@ import {
   tripguide,
   threejs,
   Playwright,
+  kugelblitz,
 } from "../assets";
 
 export const navLinks = [
+   {
+    id: "cv",
+    title: "cv",
+  },
   {
     id: "about",
     title: "About",
@@ -123,6 +128,19 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "Software Test Engineer",
+    company_name: "Kugelblitz Private Limited",
+    icon: kugelblitz,
+    iconBg: "#ffffff",
+    date: "Aug 2025 - Present",
+    points: [
+      "Leading automation for the Loan Origination System (LOS) using Playwright",
+      "Developed reusable automation scripts for LOS workflows including KYC, document validation, and approvals.",
+      "Improved test reliability and reduced manual testing effort by 70%.",
+      "Collaborated with cross-functional teams in Agile sprints to enhance release quality.",
+    ],
+  },
   {
     title: "Software Test Engineer",
     company_name: "Orufy Technologies Private Limited",
