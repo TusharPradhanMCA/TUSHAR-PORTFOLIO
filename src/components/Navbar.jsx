@@ -62,7 +62,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              {nav.id === "cv" ? (
+              {nav.id === "CV" ? (
                 <a
                   href={cvLink}
                   target="_blank"
