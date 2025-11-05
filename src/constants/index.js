@@ -1,4 +1,6 @@
 import {
+  aitestcases,
+  rahul,
   mobile,
   backend,
   creator,
@@ -182,6 +184,14 @@ const experiences = [
 ];
 
 const testimonials = [
+   {
+    testimonial:
+      "Tushar developed our LOS New UI automation and built robust API automation with great precision.",
+    name: "Rahul Choudhary",
+    designation: "Manager",
+    company: "Kugelblitz Pvt",
+    image: rahul,
+  },
   {
     testimonial:
       "Tushar’s Playwright automation halved our testing time and boosted release speed.",
@@ -198,21 +208,36 @@ const testimonials = [
     company: "Orufy Technologies",
     image: "https://i.pinimg.com/474x/07/c4/72/07c4720d19a9e9edad9d0e939eca304a.jpg",
   },
-  {
-    testimonial:
-      "Tushar’s Playwright automation halved our testing time and boosted release speed. ",
-    name: "Manan Agarwal",
-    designation: "SDE 2",
-    company: "Orufy Technologies",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQExJqoHC9yCCA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732123520331?e=1756339200&v=beta&t=yxVWbYlf9mMkYWqedGr5mATfSML8nuJBDrVZ5ajedTo",
-  },
+ 
 ];
 
+
 const projects = [
+   {
+    name: "AI TestCases",
+    description:
+      "AI-powered tool that converts PRD files or text into structured LOS test cases, automating creation and export in JSON, CSV, or XLSX formats.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gemini api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aitestcases,
+    source_code_link: "https://github.com/TusharPradhanMCA/los-test-agent",
+  },
   {
     name: "Wagerx",
     description:
-      "A fast, interactive crypto betting app with real-time odds and wallet integration. I worked on UI testing, automation with Playwright, and ensuring smooth, bug-free gameplay.",
+      "An advanced, interactive crypto betting platform featuring real-time odds, secure wallet integration, and seamless gameplay for a dynamic user experience.",
     tags: [
       {
         name: "react",
@@ -228,27 +253,6 @@ const projects = [
       },
     ],
     image: wager,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "URL SHORTNER",
-    description:
-      "A minimal and user-friendly app to shorten long URLs with a single click. Built for speed and ease, with real-time stats and error handling. Focused on clean UI and smooth UX.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: URLShortner,
     source_code_link: "https://github.com/",
   },
   {

@@ -6,7 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import rahul from "./tech/rahul choudhary photo.jpg"
+import aitestcases from "./tech/los test.png"
 import css from "./tech/css.png";
 import Playwright from "./tech/playwright.svg";
 import docker from "./tech/docker.png";
@@ -33,6 +34,8 @@ import URLShortner from "./URLShortner.png";
 import tripguide from "./tripguide.png";
 
 export {
+  aitestcases,
+  rahul,
   kugelblitz,
   logo,
   backend,
