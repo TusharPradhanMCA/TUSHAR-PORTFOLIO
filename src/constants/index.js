@@ -148,10 +148,10 @@ const experiences = [
     iconBg: "#ffffff",
     date: "February 2025 - Augest 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained 200+ automated and manual test cases for Orufy Connect across staging andproduction.",
+      "Architected a custom Playwright framework in JavaScript for end-to-end automation.",
+      "Automated OTP-based registration by integrating with Gmail API, improving test setup speed by 60%.",
+      "Led execution of functional, API, and UI tests in Agile sprints, reducing defect leakage by 80%.",
     ],
   },
   {
@@ -162,7 +162,7 @@ const experiences = [
     date: "JULY 2023 - JULY 2025",
     points: [
       " JECRC University, Jaipur, India: Master of Computer Applications (MCA)",
-      "CGPA: 7.97 / 10",
+      "CGPA: 7.98 / 10",
       "Relevant Coursework: DSA, System Design, Web Development, Software Testing, ADBMS",
     ],
   },
