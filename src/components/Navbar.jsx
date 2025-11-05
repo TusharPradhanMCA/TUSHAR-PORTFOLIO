@@ -105,7 +105,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  {nav.id === "cv" ? (
+                  {nav.id === "CV" ? (
                     <a
                       href={cvLink}
                       target="_blank"
